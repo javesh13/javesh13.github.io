@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    padding: 0px;
+    margin:0px
+}
+
+.fill { 
+    min-height: 100%;
+}
+#navbarNav{
+    /* border: 1px white; */
+    border-style: dashed;
+}
