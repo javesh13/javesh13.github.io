@@ -1,7 +1,9 @@
 html, body {
     height: 100%;
     padding: 0px;
-    margin:0px
+    margin:0px;
+    scroll-behavior: smooth;
+      
 }
 
 .fill { 
@@ -10,4 +12,33 @@ html, body {
 #navbarNav{
     /* border: 1px white; */
     border-style: dashed;
+}
+
+.max_col{
+    max-width: 100px;
+}
+
+.trys{
+    transform: rotate(50deg);
+}
+
+.one_bg{
+    /* background: rgb(255,193,7); */
+    background: linear-gradient(90deg, rgba(255,193,7,1) 50%, rgba(13,202,240,1) 50%);
+    /* filter: blur(2px); */
+
+   
+}
+
+.two_bg{
+    /* background: rgb(255,193,7); */
+    background: linear-gradient(90deg,  rgba(13,202,240,1) 50%, rgba(255,193,7,1) 50%);
+    /* filter: blur(2px); */
+    
+   
+}
+
+.custom_border{
+    border-left:10px solid #ffc107;
+    border-right:10px solid #0dcaf0;
 }
