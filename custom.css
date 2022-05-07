@@ -23,8 +23,10 @@ html, body {
 }
 
 .one_bg{
-    /* background: rgb(255,193,7); */
-    background: linear-gradient(90deg, rgba(255,193,7,1) 50%, rgba(13,202,240,1) 50%);
+
+    /* background: linear-gradient(90deg, rgba(13,202,240,1) 33%, rgba(255,255,255,1) 100%); */
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(13,202,240,1) 65%, rgba(255,255,255,1) 100%);
     /* filter: blur(2px); */
 
    
